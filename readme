@@ -1,0 +1,11 @@
+To run tests
+./vendor/bin/codecept run unit
+
+To prepare database
+./bin/console doctrine:database:create
+
+To update scheme
+./bin/console doctrine:schema:update --force
+
+To run command
+./bin/console app:employee:determine-vacation-days
